@@ -1,0 +1,25 @@
+{
+  "name": "Core DAO Documentation",
+  "short_name": "CoreDocs",
+  "description": "Official documentation for the Core blockchain — Bitcoin-secured, EVM-compatible Layer-1.",
+  "start_url": "/docs/intro",
+  "display": "standalone",
+  "background_color": "#0D0D0D",
+  "theme_color": "#f96e34",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/img/core.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "48x48"
+    }
+  ],
+  "categories": ["developer", "blockchain", "documentation"],
+  "lang": "en-US"
+}

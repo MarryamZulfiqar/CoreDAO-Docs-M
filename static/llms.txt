@@ -1,0 +1,151 @@
+# Core DAO Documentation
+# llms.txt — AI-readable index for large language models
+# Spec: https://llmstxt.org/
+
+> Core is a Bitcoin-secured, EVM-compatible Layer-1 blockchain using Satoshi Plus consensus.
+> Documentation covers protocol concepts, staking, developer guides, node operations, and APIs.
+
+- [Core DAO Docs Home](https://docs.coredao.org/docs/intro)
+
+## Concepts & Protocol
+
+- [Core 101](https://docs.coredao.org/docs/concepts/introduction/core-101)
+- [Quickstart](https://docs.coredao.org/docs/concepts/introduction/quickstart)
+- [Why Core](https://docs.coredao.org/docs/concepts/introduction/why-core)
+- [Self-Custodial Bitcoin Staking](https://docs.coredao.org/docs/concepts/core-concepts/self-custodial-bitcoin-staking)
+- [Delegated Proof of Stake](https://docs.coredao.org/docs/concepts/core-concepts/delegated-proof-of-stake)
+- [Delegated Proof of Work](https://docs.coredao.org/docs/concepts/core-concepts/delegated-proof-of-work)
+- [Architecture](https://docs.coredao.org/docs/concepts/core-concepts/architecture)
+- [Overview](https://docs.coredao.org/docs/concepts/core-concepts/satoshi-plus-overview)
+- [Rewards](https://docs.coredao.org/docs/concepts/core-concepts/rewards)
+- [Security Model](https://docs.coredao.org/docs/concepts/core-concepts/security-model)
+- [Validator Election](https://docs.coredao.org/docs/concepts/core-concepts/satoshi-plus-validator-election)
+- [CORE Value Creation](https://docs.coredao.org/docs/concepts/core-token/core-value-creation)
+- [Overview](https://docs.coredao.org/docs/concepts/core-token/core-token-overview)
+- [Tokenomics](https://docs.coredao.org/docs/concepts/core-token/tokenomics)
+- [Design](https://docs.coredao.org/docs/concepts/liquid-staking/stCore/design)
+- [Overview](https://docs.coredao.org/docs/concepts/liquid-staking/stCore/stcore-overview)
+- [How to Liquid Stake (stCORE)](https://docs.coredao.org/docs/concepts/liquid-staking/stCore/how-to-liquid-stake-stcore)
+- [Rev+ Compatibility Guide](https://docs.coredao.org/docs/concepts/rev-plus/rev-plus-compatibility-guide)
+- [Protocol Design](https://docs.coredao.org/docs/concepts/rev-plus/protocol-design)
+- [Overview](https://docs.coredao.org/docs/concepts/rev-plus/rev-plus-overview)
+- [Track & Receive Rewards](https://docs.coredao.org/docs/concepts/rev-plus/track-and-receive-rewards)
+- [Core Codebase Audits](https://docs.coredao.org/docs/concepts/security/core-codebase-audits)
+- [Reporting Security Vulnerability](https://docs.coredao.org/docs/concepts/security/reporting-security-vulnerability)
+- [Reporting Security Incidents](https://docs.coredao.org/docs/concepts/security/reporting-security-incidents)
+- [Reporting Spam](https://docs.coredao.org/docs/concepts/security/reporting-spam)
+- [Governance](https://docs.coredao.org/docs/concepts/governance)
+
+## Staking & Delegation
+
+- [Redeem Bitcoin / Claim CORE](https://docs.coredao.org/docs/staking/btc-staking/redeem-bitcoin-claim-core)
+- [BTC Staking Transaction Decoder](https://docs.coredao.org/docs/staking/btc-staking/btc-staking-transaction-decoder)
+- [How It Works](https://docs.coredao.org/docs/staking/btc-staking/btc-staking-how-it-works)
+- [Transaction Design](https://docs.coredao.org/docs/staking/btc-staking/transaction-design)
+- [FAQs on Self Custodial Bitcoin Staking](https://docs.coredao.org/docs/staking/btc-staking/faqs-on-self-custodial-bitcoin-staking)
+- [Redelegating Staked BTC](https://docs.coredao.org/docs/staking/btc-staking/ledger-guides/mainnet/redelegating-staked-btc)
+- [Redeeming Timelock Expired BTC](https://docs.coredao.org/docs/staking/btc-staking/ledger-guides/mainnet/redeeming-timelock-expired-btc)
+- [Staking BTC with Core](https://docs.coredao.org/docs/staking/btc-staking/ledger-guides/mainnet/staking-btc-with-core)
+- [Redelegating Timelock Expired BTC](https://docs.coredao.org/docs/staking/btc-staking/ledger-guides/testnet/redelegating-timelock-expired-btc)
+- [Redeeming Staked BTC](https://docs.coredao.org/docs/staking/btc-staking/ledger-guides/testnet/redeeming-staked-btc)
+- [Staking BTC with Core](https://docs.coredao.org/docs/staking/btc-staking/ledger-guides/testnet/ledger-btc-staking-testnet)
+- [Overview](https://docs.coredao.org/docs/staking/btc-staking/btc-staking-overview)
+- [Staking Bitcoin with Core](https://docs.coredao.org/docs/staking/btc-staking/staking-bitcoin-with-core)
+- [Using EVM Wallets](https://docs.coredao.org/docs/staking/core-staking/using-evm-wallets)
+- [Using Ledger Hardware Wallet](https://docs.coredao.org/docs/staking/core-staking/using-ledger-hardware-wallet)
+- [Bitcoin Hash Power Delegation](https://docs.coredao.org/docs/staking/bitcoin-hash-power-delegation)
+- [Delegators](https://docs.coredao.org/docs/staking/delegators)
+- [How It Works](https://docs.coredao.org/docs/staking/dual-staking/how-it-works)
+- [How to Dual Stake](https://docs.coredao.org/docs/staking/dual-staking/how-to-dual-stake)
+- [Dual Staking Integration Guide](https://docs.coredao.org/docs/staking/dual-staking/dual-staking-integration-guide)
+- [Overview](https://docs.coredao.org/docs/staking/dual-staking/dual-staking-overview)
+- [Dual Staking Guide](https://docs.coredao.org/docs/staking/dual-staking/dual-staking-guide)
+- [Tier Adjustment System](https://docs.coredao.org/docs/staking/dual-staking/tier-adjustment-system)
+- [Overview](https://docs.coredao.org/docs/staking/staking-overview)
+
+## Developer Guides
+
+- [Bridging Tokens Using LayerZero](https://docs.coredao.org/docs/developer/bridges/bridging-tokens-using-layerzero)
+- [Core Bridge Resources](https://docs.coredao.org/docs/developer/bridges/core-bridge-resources)
+- [Chainlink CCIP Guide](https://docs.coredao.org/docs/developer/bridges/chainlink-ccip-guide)
+- [Thirdweb Universal Bridge](https://docs.coredao.org/docs/developer/bridges/thirdweb-universal-bridge)
+- [Full Stack dApp Toolkit](https://docs.coredao.org/docs/developer/dapps/full-stack-dapp-toolkit)
+- [Build dApp on Core](https://docs.coredao.org/docs/developer/dapps/build-dapp-on-core)
+- [Core Subgraph Tutorial](https://docs.coredao.org/docs/developer/indexing/core-subgraph-tutorial)
+- [Overview](https://docs.coredao.org/docs/developer/indexing/core-subgraph-overview)
+- [Add Core Network](https://docs.coredao.org/docs/developer/network/add-core-network)
+- [Network Configuration](https://docs.coredao.org/docs/developer/network/network-configuration)
+- [Connect Through CLI](https://docs.coredao.org/docs/developer/network/connect-through-cli)
+- [RPC Providers](https://docs.coredao.org/docs/developer/network/rpc-providers)
+- [Connect Through Postman](https://docs.coredao.org/docs/developer/network/connect-through-postman)
+- [Contract Verification](https://docs.coredao.org/docs/developer/smart-contracts/contract-verification)
+- [ERC-20 Tokens](https://docs.coredao.org/docs/developer/smart-contracts/erc-20-tokens)
+- [ERC-721 Tokens](https://docs.coredao.org/docs/developer/smart-contracts/erc-721-tokens)
+- [Using Foundry](https://docs.coredao.org/docs/developer/smart-contracts/using-foundry)
+- [Using Hardhat](https://docs.coredao.org/docs/developer/smart-contracts/using-hardhat)
+- [Using Remix](https://docs.coredao.org/docs/developer/smart-contracts/using-remix)
+- [Smart Contract Guidelines](https://docs.coredao.org/docs/developer/smart-contracts/smart-contract-guidelines)
+- [Block Explorer](https://docs.coredao.org/docs/developer/tooling/block-explorer)
+- [Faucet](https://docs.coredao.org/docs/developer/tooling/faucet)
+- [Tools & Resources](https://docs.coredao.org/docs/developer/tooling/tools-and-resources)
+- [Ecosystem Contracts](https://docs.coredao.org/docs/developer/tooling/ecosystem-contracts)
+
+## Node Operations
+
+- [Archive Node](https://docs.coredao.org/docs/node-operator/config/archive-node)
+- [Full Node](https://docs.coredao.org/docs/node-operator/config/full-node)
+- [RPC Node](https://docs.coredao.org/docs/node-operator/config/rpc-node)
+- [Snapshot Node](https://docs.coredao.org/docs/node-operator/config/snapshot-node)
+- [Validator Node](https://docs.coredao.org/docs/node-operator/config/validator-node)
+- [Node Maintenance](https://docs.coredao.org/docs/node-operator/maintenance/node-maintenance)
+- [Upgrading Geth](https://docs.coredao.org/docs/node-operator/maintenance/upgrading-geth)
+- [Syncing Core Nodes](https://docs.coredao.org/docs/node-operator/maintenance/syncing-core-nodes)
+- [Types of Nodes](https://docs.coredao.org/docs/node-operator/types-of-nodes)
+- [On Mainnet](https://docs.coredao.org/docs/node-operator/running/on-mainnet)
+- [On Testnet](https://docs.coredao.org/docs/node-operator/running/on-testnet)
+- [Overview](https://docs.coredao.org/docs/node-operator/slashing/slashing-overview)
+- [Slashing Fee](https://docs.coredao.org/docs/node-operator/slashing/slashing-fee)
+- [Overview](https://docs.coredao.org/docs/node-operator/validator/validator-overview)
+- [Validator Rewards](https://docs.coredao.org/docs/node-operator/validator/validator-rewards)
+- [Setup Validator Node](https://docs.coredao.org/docs/node-operator/validator/setup-validator-node)
+- [Validator Election](https://docs.coredao.org/docs/node-operator/validator/node-validator-election)
+- [Register Validator Node](https://docs.coredao.org/docs/node-operator/validator/register-validator-node)
+
+## API Reference
+
+- [Core Scan OpenAPI](https://docs.coredao.org/docs/api/core-scan-api/core-scan-openapi)
+- [Common Error Messages](https://docs.coredao.org/docs/api/core-scan-api/tutorials/common-error-messages)
+- [Creating an Account](https://docs.coredao.org/docs/api/core-scan-api/tutorials/creating-an-account)
+- [Generate an API Key](https://docs.coredao.org/docs/api/core-scan-api/tutorials/generate-an-api-key)
+
+## FAQs
+
+- [Liquid Staking (stCORE) FAQs](https://docs.coredao.org/docs/faqs/liquid-staking-stcore-faqs)
+- [Self-Custodial BTC Staking FAQs](https://docs.coredao.org/docs/faqs/self-custodial-btc-staking-faqs)
+- [Core Scan API FAQs](https://docs.coredao.org/docs/faqs/core-scan-api-faqs)
+- [Core Blockchain FAQs](https://docs.coredao.org/docs/faqs/core-blockchain-faqs)
+- [Core Nodes FAQs](https://docs.coredao.org/docs/faqs/core-nodes-faqs)
+- [Delegator FAQs](https://docs.coredao.org/docs/faqs/delegator-faqs)
+- [Dual Staking FAQs](https://docs.coredao.org/docs/faqs/dual-staking-faqs)
+- [Hardware Wallet Integration FAQs](https://docs.coredao.org/docs/faqs/hardware-wallet-integration-faqs)
+- [Core Validator FAQs](https://docs.coredao.org/docs/faqs/core-validator-faqs)
+
+## Reference
+
+- [Glossary](https://docs.coredao.org/docs/reference/glossary)
+- [Network Parameters](https://docs.coredao.org/docs/reference/network-params)
+
+## API Playgrounds (OpenAPI)
+
+- [Core Scan API — Mainnet Playground](https://docs.coredao.org/docs/api/core-scan-api/endpoints/mainnet/api-documentation)
+- [Core Scan API — Testnet Playground](https://docs.coredao.org/docs/api/core-scan-api/endpoints/testnet/api-documentation)
+- [Staking API — Mainnet Playground](https://docs.coredao.org/docs/api/staking-api/mainnet/core-staking-api)
+- [Staking API — Testnet Playground](https://docs.coredao.org/docs/api/staking-api/testnet/core-staking-api)
+
+## Optional
+
+- [Full Docs](https://docs.coredao.org)
+- [Whitepaper](https://whitepaper.coredao.org)
+- [GitHub](https://github.com/coredao-org)
+- [Blog](https://coredao.org/explore/blog)
+- [Explorer](https://scan.coredao.org)

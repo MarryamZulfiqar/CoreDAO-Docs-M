@@ -1,0 +1,22 @@
+# ai.txt — Core DAO Documentation AI Permissions
+# Spec: https://site-analyser.io/ai-txt/
+# Site: https://docs.coredao.org
+
+# Training permission
+Training: allowed
+
+# Crawling permission  
+Crawling: allowed
+
+# Response generation permission
+Generation: allowed
+
+# LLM-readable resources
+LLMs-Index: https://docs.coredao.org/llms.txt
+LLMs-Full: https://docs.coredao.org/llms-full.txt
+
+# MCP endpoint (coming soon)
+# MCP: https://docs.coredao.org/mcp
+
+# Contact
+Contact: developers@coredao.org
