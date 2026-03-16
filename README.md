@@ -1,4 +1,4 @@
-# Core DAO Documentation — Restructured
+# Core DAO Documentation
 
 Official documentation for the [Core blockchain](https://coredao.org), rebuilt with Docusaurus v3, GitHub Pages deployment, and AI-ready structure.
 
